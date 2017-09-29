@@ -1,0 +1,76 @@
+body {
+	font-family: 'Galano Grotesque Alt',-apple-system,BlinkMacSystemFont,
+		"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	margin-top: 0px;
+}
+
+#top-border {
+	border-top: 1px solid #E47642;
+
+}
+
+header > div {
+	float:right;
+}
+
+nav > a {
+	color: black;
+	text-decoration: none;
+	margin-left: 5px;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+header > #mushroom-img {
+	width: 15px;
+	transition: all .5s;
+}
+
+header > #mushroom-img:hover {
+	transform:scale(1.5) rotate(360deg);
+}
+
+
+#bottom-border {
+	border-top: 1px solid #E47642;
+	width: 50%;
+	margin: auto;
+}
+
+#text-container {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+h1 {
+	color: #E47642;
+	font-size: 75px;
+	margin-top: 25px;
+}
+
+h2,h4 {
+	font-family: SignPainter;
+}
+
+h3 {
+	color: #E47642 ;
+	font-size:50px;
+}
+
+
+#list-container {
+	margin-top: 40px;
+	list-style: none;
+}
+
+a {
+	color: #3F97F0;
+	font-size: 15px;
+}
+
+p {
+	margin-bottom: 10px;
+	font-size: 10px;
+	color: #D1D2DB;
+	text-align: center;
+}
